@@ -1,0 +1,53 @@
+body {
+    height: 1000px;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    overflow: hidden;
+    background
+}
+
+.info {
+    width: 20%;
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: "Helvetica";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 16px;
+}
+
+a{
+text-decoration: none;
+  outline: 0;
+  color: black;
+  border-bottom: solid 1px transparent;
+  -webkit-transition: color .2s ease-out, border-bottom-color .2s ease-out;
+     -moz-transition: color .2s ease-out, border-bottom-color .2s ease-out;
+      -ms-transition: color .2s ease-out, border-bottom-color .2s ease-out;
+       -o-transition: color .2s ease-out, border-bottom-color .2s ease-out;
+          transition: color .2s ease-out, border-bottom-color .2s ease-out;
+}
+
+  a:hover {
+    color: black;
+    border-bottom: solid 1px #000000;
+  }
+
+.icon {
+    width: 80%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
